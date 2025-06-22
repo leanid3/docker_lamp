@@ -1,0 +1,16 @@
+{
+    "name": "lamp/leanid3",
+    "autoload": {
+        "psr-4": {
+            "Lamp\\Leanid3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leanid3"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.9"
+    }
+}
