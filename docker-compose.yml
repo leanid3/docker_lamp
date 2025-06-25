@@ -21,7 +21,7 @@ services:
     image: nginx:latest
     container_name: webserver
     volumes:
-      - ./www:/var/www/html
+      # - ./www:/var/www/html
       - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 80:80

@@ -23,7 +23,7 @@ if (empty($path)) {
 }
 
 // Определяем путь к файлу в src/App/View/Pages
-$appPath = __DIR__ . '/src/App/View/Pages';
+$appPath = __DIR__ . '/src/View/Pages';
 
 // Создаем путь к файлу обработчика
 if ($path === '/') {
